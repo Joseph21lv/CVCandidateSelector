@@ -1,0 +1,322 @@
+2025-05-15 22:08:18,625 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-15 22:08:35,178 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-15 22:08:35,179 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-15 22:08:35,179 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-15 22:09:02,512 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-15 22:09:02,526 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-15 22:09:02,526 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-15 22:09:02,527 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-15 22:09:02,527 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-15 22:09:04,220 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-15 22:09:04,866 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-15 22:09:04,866 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-15 22:09:04,866 - preprocessing.text_extractor - ERROR - El archivo sample_cv.pdf no existe.
+2025-05-15 22:09:04,866 - utils.data_loader - ERROR - El archivo sample_job.txt no existe.
+2025-05-15 22:09:04,867 - models.naive_bayes - ERROR - Error al predecir con Naive Bayes: The TF-IDF vectorizer is not fitted
+2025-05-15 22:09:04,880 - models.bert_model - ERROR - Error al predecir con BERT: text input must be of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-05-15 22:09:04,880 - __main__ - INFO - Puntuación de compatibilidad: 0.15
+2025-05-15 22:09:04,882 - database.db_handler - INFO - Resultado guardado con ID: 1
+2025-05-24 12:04:17,270 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-24 12:04:21,130 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-24 12:04:21,130 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-24 12:04:21,130 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-24 12:04:27,387 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-24 12:04:27,391 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-24 12:04:27,392 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-24 12:04:27,392 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-24 12:04:27,392 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-24 12:05:15,769 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-24 12:05:31,205 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-24 12:05:31,205 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-24 12:05:31,206 - preprocessing.text_extractor - ERROR - El archivo ruta/a/tu/cv.pdf no existe.
+2025-05-24 12:05:31,206 - utils.data_loader - ERROR - El archivo ruta/a/descripcion_puesto.txt no existe.
+2025-05-24 12:05:31,206 - models.naive_bayes - ERROR - Error al predecir con Naive Bayes: The TF-IDF vectorizer is not fitted
+2025-05-24 12:05:31,220 - models.bert_model - ERROR - Error al predecir con BERT: text input must be of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-05-24 12:05:31,220 - __main__ - INFO - Puntuación de compatibilidad: 0.15
+2025-05-24 12:05:31,225 - database.db_handler - INFO - Resultado guardado con ID: 7
+2025-05-27 22:10:04,664 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-27 22:10:07,181 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:10:07,181 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:10:07,181 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:10:10,558 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:10:10,572 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-27 22:10:10,572 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-27 22:10:10,573 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:10:10,573 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:10:11,907 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:10:12,684 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:10:12,684 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-27 22:15:34,797 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-27 22:15:36,839 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:15:36,839 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:15:36,839 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:15:39,929 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:15:39,937 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-27 22:15:39,937 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-27 22:15:39,939 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:15:39,939 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:15:44,763 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:15:45,550 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:15:45,550 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-27 22:28:08,173 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 22:28:08,175 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 22:28:08,175 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-27 22:28:10,086 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:28:10,086 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:28:10,087 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:28:12,873 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:28:18,762 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 22:28:18,763 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 22:28:18,763 - __main__ - INFO - Iniciando sistema en modo: train
+2025-05-27 22:28:20,837 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:28:20,837 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:28:20,837 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:28:23,647 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:28:29,504 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 22:28:29,505 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 22:28:29,505 - __main__ - INFO - Iniciando sistema en modo: evaluate
+2025-05-27 22:28:31,607 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:28:31,608 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:28:31,608 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:28:34,773 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:22,079 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 22:35:22,080 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 22:35:22,080 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-27 22:35:22,264 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-05-27 22:35:23,241 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:35:23,242 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:35:23,242 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:25,726 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:25,731 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-27 22:35:25,731 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-27 22:35:25,732 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:35:25,732 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:26,995 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:27,636 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:35:27,637 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-27 22:35:27,637 - preprocessing.text_extractor - ERROR - El archivo no existe: ruta/al/cv.pdf
+2025-05-27 22:35:27,637 - utils.data_loader - ERROR - Error al cargar texto de ruta/a/descripcion.txt: [Errno 2] No such file or directory: 'ruta/a/descripcion.txt'
+2025-05-27 22:35:27,637 - models.naive_bayes - ERROR - Error al predecir con el modelo Naive Bayes: The TF-IDF vectorizer is not fitted
+2025-05-27 22:35:27,647 - models.bert_model - ERROR - Error al predecir con el modelo BERT: text input must be of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-05-27 22:35:27,647 - models.ensemble - INFO - Predicciones individuales: {'naive_bayes': 0.5, 'sbert': 0.5, 'bert': 0.5}
+2025-05-27 22:35:27,647 - models.ensemble - INFO - Predicción final: 0.5000
+2025-05-27 22:35:27,647 - __main__ - INFO - Puntuación de compatibilidad: 0.50
+2025-05-27 22:35:27,649 - database.db_handler - INFO - Resultado guardado con ID: 1
+2025-05-27 22:35:34,025 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 22:35:34,026 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 22:35:34,026 - __main__ - INFO - Iniciando sistema en modo: train
+2025-05-27 22:35:34,207 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-05-27 22:35:35,384 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:35:35,384 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:35:35,384 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:37,567 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:37,571 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-27 22:35:37,571 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-27 22:35:37,571 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:35:37,571 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:38,910 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:39,574 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:35:39,574 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-27 22:35:39,575 - utils.data_loader - INFO - Datos de entrenamiento cargados: 0 CVs, 0 descripciones
+2025-05-27 22:35:39,575 - models.ensemble - INFO - Entrenando modelo naive_bayes...
+2025-05-27 22:35:39,578 - models.naive_bayes - ERROR - Error al entrenar el modelo Naive Bayes: empty vocabulary; perhaps the documents only contain stop words
+2025-05-27 22:35:39,578 - models.ensemble - INFO - Entrenando modelo sbert...
+2025-05-27 22:35:39,578 - models.sbert_model - INFO - El modelo SBERT preentrenado no requiere entrenamiento adicional
+2025-05-27 22:35:39,578 - models.ensemble - INFO - Entrenando modelo bert...
+2025-05-27 22:35:39,578 - models.bert_model - INFO - El modelo BERT preentrenado no requiere entrenamiento adicional
+2025-05-27 22:35:39,578 - __main__ - INFO - Modelo ensemble entrenado exitosamente
+2025-05-27 22:35:46,344 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 22:35:46,345 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 22:35:46,345 - __main__ - INFO - Iniciando sistema en modo: evaluate
+2025-05-27 22:35:46,523 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-05-27 22:35:47,922 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:35:47,923 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:35:47,923 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:50,261 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:50,265 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-27 22:35:50,265 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-27 22:35:50,265 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:35:50,265 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:51,523 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:35:52,248 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:35:52,248 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-27 22:35:52,248 - utils.data_loader - INFO - Datos de entrenamiento cargados: 0 CVs, 0 descripciones
+2025-05-27 22:35:52,248 - utils.data_loader - ERROR - Error al cargar datos de evaluación: not enough values to unpack (expected 2, got 0)
+2025-05-27 22:35:52,258 - __main__ - INFO - Resultados de evaluación: {'accuracy': nan, 'precision': 0.0, 'recall': 0.0, 'f1': 0.0, 'auc': 0.5}
+2025-05-27 22:42:37,593 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 22:42:37,594 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 22:42:37,594 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-27 22:42:37,789 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-05-27 22:42:39,502 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:42:39,502 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:42:39,502 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:42:42,652 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:42:42,730 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-27 22:42:42,731 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-27 22:42:42,732 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:42:42,732 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:42:44,019 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:42:44,701 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:42:44,701 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-27 22:42:44,701 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-05-27 22:49:59,700 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 22:49:59,703 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 22:49:59,703 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-27 22:49:59,900 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-05-27 22:50:01,190 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:50:01,191 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:50:01,191 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:50:04,015 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:50:04,021 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-27 22:50:04,021 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-27 22:50:04,022 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 22:50:04,022 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:50:05,279 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 22:50:06,004 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 22:50:06,004 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-27 22:50:06,004 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-05-27 23:14:22,648 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-05-27 23:14:22,649 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-05-27 23:14:22,649 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-05-27 23:14:22,850 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-05-27 23:14:24,297 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 23:14:24,297 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 23:14:24,297 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 23:14:27,811 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 23:14:27,819 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-05-27 23:14:27,819 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-05-27 23:14:27,820 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-27 23:14:27,820 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 23:14:29,045 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-05-27 23:14:29,712 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-05-27 23:14:29,712 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-05-27 23:14:29,712 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-06-05 23:39:45,896 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-06-05 23:39:45,899 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-06-05 23:39:45,899 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-06-05 23:39:45,900 - preprocessing.text_cleaner - WARNING - No se pudo cargar el modelo spaCy: [E050] Can't find model 'es_core_news_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-06-05 23:39:45,900 - preprocessing.text_cleaner - WARNING - Intente instalar el modelo con: python -m spacy download es_core_news_sm
+2025-06-05 23:39:46,877 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-06-05 23:39:46,878 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-05 23:39:46,878 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-05 23:39:49,712 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-06-05 23:39:49,726 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-06-05 23:39:49,726 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-06-05 23:39:49,729 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-05 23:39:49,729 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-05 23:39:51,900 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-06-05 23:39:52,716 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-06-05 23:39:52,716 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-06-05 23:39:52,716 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-06-05 23:44:25,804 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-06-05 23:44:25,805 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-06-05 23:44:25,805 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-06-05 23:44:26,021 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-06-05 23:44:27,532 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-06-05 23:44:27,532 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-05 23:44:27,532 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-05 23:44:30,598 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-06-05 23:44:31,484 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-06-05 23:44:31,486 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-06-05 23:44:31,488 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-05 23:44:31,488 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-05 23:44:33,591 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-06-05 23:44:34,356 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-06-05 23:44:34,356 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-06-05 23:44:34,356 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-06-06 00:05:36,099 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-06-06 00:05:36,100 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-06-06 00:05:36,100 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-06-06 00:05:36,291 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-06-06 00:05:37,418 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:05:37,418 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:05:37,418 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:05:39,617 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:05:39,624 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-06-06 00:05:39,625 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-06-06 00:05:39,626 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:05:39,626 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:05:41,190 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:05:41,851 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:05:41,851 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-06-06 00:05:41,851 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-06-06 00:09:55,656 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-06-06 00:09:55,657 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-06-06 00:09:55,657 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-06-06 00:09:55,856 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-06-06 00:09:56,971 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:09:56,972 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:09:56,972 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:10:00,167 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:10:00,756 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-06-06 00:10:00,766 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-06-06 00:10:00,771 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:10:00,772 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:10:02,205 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:10:02,882 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:10:02,882 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-06-06 00:10:02,882 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-06-06 00:20:00,327 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-06-06 00:20:00,328 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-06-06 00:20:00,328 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-06-06 00:20:00,527 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-06-06 00:20:01,801 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:20:01,801 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:20:01,801 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:20:07,239 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:20:07,247 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-06-06 00:20:07,248 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-06-06 00:20:07,248 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:20:07,248 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:20:09,454 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:20:10,117 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:20:10,117 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-06-06 00:20:10,117 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-06-06 00:24:24,609 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-06-06 00:24:24,610 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-06-06 00:24:24,610 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-06-06 00:24:24,799 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-06-06 00:24:25,719 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:24:25,720 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:24:25,720 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:24:27,721 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:24:27,723 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-06-06 00:24:27,723 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-06-06 00:24:27,724 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:24:27,724 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:24:29,267 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:24:29,943 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:24:29,943 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-06-06 00:24:29,943 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-06-06 00:36:59,933 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-06-06 00:36:59,934 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-06-06 00:36:59,934 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-06-06 00:37:00,122 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-06-06 00:37:01,358 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:37:01,358 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:37:01,358 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:37:03,931 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:37:03,937 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-06-06 00:37:03,938 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-06-06 00:37:03,938 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 00:37:03,938 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:37:05,373 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 00:37:06,151 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 00:37:06,151 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-06-06 00:37:06,151 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
+2025-06-06 01:14:26,703 - config.config - INFO - Configuración predeterminada cargada desde: /Users/sebastianasti/Documents/proyectoVietnam/config/default.yaml
+2025-06-06 01:14:26,704 - config.config - INFO - Configuración personalizada cargada desde: config/default.yaml
+2025-06-06 01:14:26,704 - __main__ - INFO - Iniciando sistema en modo: predict
+2025-06-06 01:14:26,890 - preprocessing.text_cleaner - INFO - Modelo spaCy cargado: es_core_news_sm
+2025-06-06 01:14:27,998 - preprocessing.feature_extractor - INFO - Modelo BERT inicializado: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 01:14:27,998 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 01:14:27,998 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 01:14:30,234 - preprocessing.feature_extractor - INFO - Modelo SBERT inicializado: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 01:14:30,239 - database.db_handler - INFO - Base de datos inicializada correctamente
+2025-06-06 01:14:30,240 - models.naive_bayes - INFO - Modelo Naive Bayes inicializado correctamente
+2025-06-06 01:14:30,241 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-06 01:14:30,241 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 01:14:31,843 - models.sbert_model - INFO - Modelo SBERT inicializado correctamente: hiiamsid/sentence_similarity_spanish_es
+2025-06-06 01:14:32,504 - models.bert_model - INFO - Modelo BERT inicializado correctamente: dccuchile/bert-base-spanish-wwm-cased
+2025-06-06 01:14:32,504 - models.ensemble - INFO - Modelo de ensamble inicializado con pesos: {'naive_bayes': 0.2, 'sbert': 0.3, 'bert': 0.5}
+2025-06-06 01:14:32,504 - __main__ - ERROR - Se requieren las rutas al CV y a la descripción del puesto
