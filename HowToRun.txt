@@ -1,0 +1,8 @@
+# Ejecutar la aplicación principal        
+python main.py                            
+                                          
+# Ejecutar la API REST                    
+python api/app.py                         
+                                          
+# Ejecutar la interfaz de usuario         
+streamlit run ui/dashboard.py  
